@@ -67,8 +67,6 @@ def play_sound():
       random_sound = right_sounds[n]
       globalvar['side'] = 'left'
 
-
-
    att = v2.get() / 100
    sd.play(att * random_sound, Fs)
 
